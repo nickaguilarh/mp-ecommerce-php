@@ -51,7 +51,7 @@ $preference->back_urls = array(
 $preference->items = array($item);
 $preference->auto_return = "approved";
 $preference->external_reference = "nickaguilarh@gmail.com";
-$preference->notification_url = "https://nickaguilarh-mp-commerce-php.herokuapp.com/notifications.php";
+$preference->notification_url = "https://nickaguilarh-mp-commerce-php.herokuapp.com/webhook.php";
 $preference->save();
 ?>
 

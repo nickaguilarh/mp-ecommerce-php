@@ -1,5 +1,5 @@
 <?php
-$req_dump = print_r($_REQUEST, TRUE);
-$fp = fopen('notifications.log', 'a');
-fwrite($fp, $req_dump);
-fclose($fp);
+$jsonString = file_get_contents("php://input");
+$myFile = "webhook.log";
+file_put_contents($myFile,$jsonString);
+echo '{ "success": true }';
