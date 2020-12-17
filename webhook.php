@@ -1,5 +1,8 @@
 <?php
 $jsonString = file_get_contents("php://input");
 $myFile = "webhook.log";
-file_put_contents($myFile,$jsonString);
+$fp = fopen($myFile, 'a');
+fwrite($fp, $jsonString);
+fwrite($fp, '|END|');
+fclose($fp);
 echo '{ "success": true }';
