@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f9b9a7-3a1b-4fdc-ac4e-578b6e5916a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/failure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pending.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608181412522</updated>
-      <workItem from="1608181413623" duration="4249000" />
+      <workItem from="1608181413623" duration="4641000" />
     </task>
     <servers />
   </component>
@@ -111,9 +105,9 @@
       <screen x="0" y="22" width="1920" height="1010" />
     </state>
     <state x="779" y="453" key="NewPhpFileDialog/0.22.1920.1010/1920.22.1920.1058@0.22.1920.1010" timestamp="1608183850133" />
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1608184347351">
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1608185828810">
       <screen x="0" y="22" width="1920" height="1010" />
     </state>
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.22.1920.1010/1920.22.1920.1058@0.22.1920.1010" timestamp="1608184347351" />
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.22.1920.1010/1920.22.1920.1058@0.22.1920.1010" timestamp="1608185828810" />
   </component>
 </project>
