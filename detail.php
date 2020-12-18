@@ -26,9 +26,9 @@ $payer->address = array(
 $item = new MercadoPago\Item();
 $item->id = "1234";
 $item->title = $_POST['title'];
-$item->description = "“Dispositivo móvil de Tienda e-commerce";
+$item->description = "Dispositivo móvil de Tienda e-commerce";
 $item->quantity = 1;
-$item->picture_url = $_POST['img'];
+$item->picture_url = "https://nickaguilarh-mp-commerce-php.herokuapp.com/" .  substr($_POST['img'], 2);
 $item->currency_id = "PEN";
 $item->unit_price = $_POST['price'];
 //$item->external_reference = "nickaguilarh@gmail.com";
@@ -52,6 +52,7 @@ $preference->items = array($item);
 $preference->auto_return = "approved";
 $preference->external_reference = "nickaguilarh@gmail.com";
 $preference->notification_url = "https://nickaguilarh-mp-commerce-php.herokuapp.com/webhook.php";
+$preference->payer = $payer;
 $preference->save();
 ?>
 
